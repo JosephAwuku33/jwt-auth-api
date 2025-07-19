@@ -1,0 +1,12 @@
+// tsconfig.test.json
+{
+  "extends": "./tsconfig.json", // Inherit all settings from tsconfig.json
+  "compilerOptions": {
+    "noEmit": true, // <--- Crucial: Tells TypeScript not to emit JS files for tests
+    // Override or add types specifically for the test environment
+    "types": ["jest", "node"]
+  },
+  // Include both source and test files for type checking during test runs
+  "include": ["src/**/*.ts", "tests/**/*.ts"],
+  "exclude": ["node_modules", "dist"] // Still exclude these
+}

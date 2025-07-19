@@ -1,0 +1,17 @@
+// tsconfig.json (main config for building your app)
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "rootDir": "./src", // Keep rootDir here
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "types": ["node"] // Only include 'node' types here, 'jest' for tests
+  },
+  "include": ["src/**/*.ts"], // Only include source files
+  // If you want to include tests, move the 'tests' folder inside 'src' or adjust rootDir/include accordingly
+  "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,49 @@
+# Node.js
+node_modules/
+npm-debug.log
+.npm/
+
+
+# TypeScript
+*.tsbuildinfo # Incremental compilation file
+
+# Build artifacts
+dist/
+
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Editor/IDE specific files
+.idea/             # IntelliJ IDEA
+.vscode/           # VS Code (if not shared workspace settings)
+*.iml              # IntelliJ IDEA module files
+.project           # Eclipse
+.classpath         # Eclipse
+.settings/         # Eclipse
+.DS_Store          # macOS
+
+
+# Environment variables
+.env
+.env.*
+!.env.example # Keep .env.example if you provide one for reference
+
+# Dependency files
+package-lock.json  # If you prefer yarn.lock or pnpm-lock.yaml
+
+# Test coverage reports
+coverage/
+.nyc_output/
+
+# OS generated files
+.Trashes
+._*
+.Spotlight-V100
+.AppleDouble
+.LSOverride
+
+# Users json file i.e the local generated DB
+src/users.json
