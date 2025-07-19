@@ -28,7 +28,7 @@ Basically reviewing a JWT Auth and API, makes use of JSON for storing user data
 #### Register
 
 ```http
-  POST /api/register
+  POST /register
 ```
 
 | Body Params | Type     | Description                |
@@ -40,7 +40,7 @@ Basically reviewing a JWT Auth and API, makes use of JSON for storing user data
 #### Login
 
 ```http
-  POST /api/login
+  POST /login
 ```
 
 | Body Params | Type     | Description                |
@@ -51,7 +51,7 @@ Basically reviewing a JWT Auth and API, makes use of JSON for storing user data
 #### Get profile
 
 ```http
-  GET /api/profile
+  GET /profile
 ```
 
 | Header(Bearer Auth) | Type     | Description                       |
